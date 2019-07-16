@@ -2,11 +2,11 @@
 <?xml-model href="http://download.ros.org/schema/package_format2.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="2">
   <name>ros2hellocli</name>
-  <version>0.7.4</version>
+  <version>0.0.0</version>
   <description>
     The ROS 2 command line tools example.
   </description>
-  <maintainer email="dthomas@osrfoundation.org">Dirk Thomas</maintainer>
+  <maintainer email="jeremie.deray@canonical.org">Jeremie Deray</maintainer>
   <license>Apache License 2.0</license>
 
   <depend>ros2cli</depend>

@@ -3,7 +3,7 @@ from setuptools import setup
 
 setup(
     name='ros2hellocli',
-    version='0.7.0',
+    version='0.0.0',
     packages=find_packages(exclude=['test']),
     install_requires=['ros2cli'],
     zip_safe=True,
@@ -11,8 +11,8 @@ setup(
     author_email='jeremie.deray@canonical.org',
     maintainer='Jeremie Deray',
     maintainer_email='jeremie.deray@canonical.org',
-    url='https://github.com/ros2/ros2cli/tree/master/ros2hellocli',
-    download_url='https://github.com/ros2/ros2cli/releases',
+    url='https://github.com/artivis/ros2hellocli',
+    download_url='https://github.com/artivis/ros2hellocli/releases',
     keywords=[],
     classifiers=[
         'Environment :: Console',
