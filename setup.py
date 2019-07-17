@@ -33,7 +33,6 @@ The package provides the hello command as a plugin example of ROS 2 command line
             'ros2hellocli.verb = ros2hellocli.verb:VerbExtension',
         ],
         'ros2hellocli.verb': [
-            'cli = ros2hellocli.verb.cli:CliVerb',
             'world = ros2hellocli.verb.world:WorldVerb',
         ],
     }
