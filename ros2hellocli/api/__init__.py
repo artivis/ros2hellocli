@@ -14,6 +14,10 @@
 
 
 def get_hello_world():
+    return 'Hello, ROS 2 World !'
+
+
+def get_hello_world_leet():
     return """
                                                                                    __
                                                                            _(\    |@@|

@@ -29,9 +29,6 @@ The package provides the hello command as a plugin example of ROS 2 command line
         'ros2cli.command': [
             'hello = ros2hellocli.command.hello:HelloCommand',
         ],
-        'ros2cli.extension_point': [
-            'ros2hellocli.verb = ros2hellocli.verb:VerbExtension',
-        ],
         'ros2hellocli.verb': [
             'world = ros2hellocli.verb.world:WorldVerb',
         ],

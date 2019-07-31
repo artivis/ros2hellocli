@@ -12,13 +12,18 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-import ros2hellocli.api
-from ros2hellocli.verb import VerbExtension
+from ros2cli.verb import VerbExtension
+from ros2hellocli.api import get_hello_world, get_hello_world_leet
 
 
 class WorldVerb(VerbExtension):
     """Prints Hello World on the terminal."""
 
+    def add_arguments(self, parser, cli_name):
+        parser.add_argument(
+                  '--simple', '-s', action='store_true',
+                  help="Display the message in a simple form.")
+
     def main(self, *, args):
-        hello_world = ros2hellocli.api.get_hello_world()
-        print(hello_world)
+        message = get_hello_world_leet() if not args.simple else get_hello_world()
+        print(message)
